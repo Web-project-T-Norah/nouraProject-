@@ -1,0 +1,34 @@
+body  {
+  margin:0;
+  padding:0;
+  background-color:#145A32;
+}
+
+.headerimp {
+	width: 100%;
+    height:100px;
+}
+.headerimp h4{
+  font-size:45px;
+  font-family: 'Rakkas', cursive;
+  float:right;
+  margin-top:1%;
+  margin-right:3%;
+  padding:10px;
+  color:#ECF0F1;
+}
+.content ul{
+  background-color:#F7F5EB;
+  margin:3% 10% 4%;
+  padding:4%;
+  width:65%;
+}
+.content ul li{
+  font-size:39px;
+  font-family:'Rakkas', cursive;
+  color:black;
+}
+.content img{
+	float:left;
+	margin:1% 4% 6%;
+}

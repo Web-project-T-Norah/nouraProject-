@@ -46,7 +46,7 @@ body  {
 
 
 
-.navbar ul li:hover{
+.navbar ul li a:hover{
   color :gray ;
 }
 .header {

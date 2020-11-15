@@ -1,16 +1,20 @@
 body  {
   margin:0;
   padding:0;
- 
+background-color:lightgray;
+
+
 }
 
 .navbar {
   width: 100%;
   height:100px;
   background-color:#145A32;
+  text-align: center;
+
 }
 .navbar p {
-  font-size:40px;
+  font-size:50px;
   font-family: 'Rakkas', cursive;
   float:right;
   margin-top:0;
@@ -22,38 +26,39 @@ body  {
 .navbar ul{
   list-style-type:none;
   float:right;
-  margin-right:7%;
+  margin-right:10%;
   margin-top:2%;
   width:60%;
 
 }
 .navbar ul li {
   display: inline;
-  margin-left:5%;
+  margin-left:1%;
   font-size: 35px;
   font-family: 'Rakkas', cursive;
   color : #ECF0F1 ;
 }
 
 .navbar ul li a {
+
   display: inline;
+  text-decoration: none;
   margin-left:3%;
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Rakkas', cursive;
   color : #ECF0F1 ;
-  text-decoration:none;
+
 }
-
-
-
 .navbar ul li a:hover{
-  color :gray ;
+  color:gray ;
+
 }
 .header {
   width:100%;
   height: 1400px;
   background-image:url(https://www.ikea.com/sa/en/images/products/bintje-plant-pot-galvanised__0811072_PE771564_S5.JPG);
   background-size: cover;
+
 
 }
 
@@ -65,35 +70,30 @@ body  {
 }
 .header p {
   position:absolute;
-  top:250px ;
-  right : 10%;
+  top:200px ;
+  right : 15%;
   color : #D0D3D4 ;
   font-family: 'Aref Ruqaa', serif;
-  font-size:55px;
-  border-bottom:solid white ;
+  font-size:70px;
+
 }
 .instructions {
-padding:100 px 0 ;
-margin: 5% 15% 30%;
+padding: 0 ;
+margin: 1
 }
 .instructions .item {
-	width:25%
-	height:100px;
-	float:right;
-	box-shadow:0 0 10px green;
-	padding:150px 100px 200px;
-	margin:4%;
+	width:3%
+	height:10px;
+	float:center;
+	box-shadow:0 0 5px green;
+  padding:150px;
+	margin:5%;
+	color:white;
   font-family: 'Aref Ruqaa',serif;
   font-size:50px;
-  border-radius:5px;
-  opacity:0.7;
+  border-radius:10px;
+   opacity:0.7;
 }
-
-.instructions .item a {
-text-decoration:none;
-	color:white;
-}
-
 #imp{
 	background-image:url(https://thumbs.dreamstime.com/b/produzca-la-ensalada-en-invernadero-65157885.jpg);
 	  background-size:cover;
@@ -103,38 +103,51 @@ text-decoration:none;
 	  background-size:cover;
 }
 #care {
-	padding:150px 60px 200px;;
 	background-image:url(http://www.theday.com/storyimage/NL/20170418/NWS01/170419462/EP/1/2/EP-170419462.jpg&Maxw=960&q=75);
 	background-size:cover;
 }
 
-.item a:hover{
+.item:hover{
 	color:#A0B584;
 	font-size:55px;
 }
 
 .about {
-  padding:80px 0 ;
+  padding-bottom:fixed;
+  padding:0  ;
+  margin: 0;
+
 }
 .about p {
   width:45%;
   font-family:'Rakkas' ;
-  font-size:20px;
+  font-size:30px;
   float : right;
-  margin-right:5%;
+  margin-right:0;
+  padding:10px;
+
 }
 .about p span {
   display: block;
   font-family:'Aref Ruqaa';
-  font-size:60px;
+  font-size:50px;
   color:#5D6D7E;
-  border-bottom:solid thin gray;
+  border-bottom:solid thin red ;
   width:33%;
-  margin-bottom: 20px;
+  padding:10px;
+  margin-right:0;
 
 }
 
 .about img {
-  margin-right: 8%:
-}
+  width:5%
+  height:10px;
+  float:left;
+  box-shadow:0 0 green;
+  padding:10px;
+  margin:1%;
+  color:white;
+  border-radius:10px;
+   opacity:0.7;
 
+}

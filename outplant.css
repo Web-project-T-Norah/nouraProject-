@@ -1,0 +1,45 @@
+body  {
+  margin:0;
+  padding:0;
+  background-color: lightgray;
+}
+.outp{
+  width: 100%;
+    height:100px;
+}
+.outp h3 {
+  font-size:45px;
+  font-family: 'Rakkas', cursive;
+  float:right;
+  margin-top:1%;
+  margin-right:3%;
+  padding:10px;
+  color:#145A32;
+}
+
+.outli ul{
+  background-color:#F7F5EB;
+  margin:3% 10% 4%;
+  padding-right:  10%;
+  padding-bottom: 30%;
+  height: 350%;
+}
+.outli ul li{
+  font-size:30px;
+  font-family: 'Markazi Text', serif;
+  color:black;
+
+}
+.outli p {
+  font-size:20px;
+  font-family: 'Markazi Text', serif;
+  color:black;
+  float : right;
+  margin-right:0;
+  padding:10px;
+
+}
+
+#img1 img {
+ float: center;
+}

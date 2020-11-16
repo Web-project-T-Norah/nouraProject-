@@ -79,21 +79,25 @@ background-color:lightgray;
 }
 .instructions {
 padding: 0 ;
-margin: 1
+margin: 1;
 }
 .instructions .item {
 	width:3%
 	height:10px;
 	float:center;
 	box-shadow:0 0 5px green;
-  padding:150px;
+    padding:150px;
 	margin:5%;
-	color:white;
-  font-family: 'Aref Ruqaa',serif;
-  font-size:50px;
-  border-radius:10px;
-   opacity:0.7;
+    font-family: 'Aref Ruqaa',serif;
+    font-size:55px;
+    border-radius:10px;
+    opacity:0.7;
 }
+.instructions .item a {
+    text-decoration:none;
+	color:white;
+}
+
 #imp{
 	background-image:url(https://thumbs.dreamstime.com/b/produzca-la-ensalada-en-invernadero-65157885.jpg);
 	  background-size:cover;
@@ -107,9 +111,9 @@ margin: 1
 	background-size:cover;
 }
 
-.item:hover{
+.item a:hover{
 	color:#A0B584;
-	font-size:55px;
+	font-size:60px;
 }
 
 .about {

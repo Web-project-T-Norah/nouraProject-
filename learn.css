@@ -52,12 +52,8 @@ body  {
   color:gray ;
 }
 
-.careheader {
-	width: 100%;
-    height:100px;
-}
-.careheader h4 {
-  font-size:45px;
+.learnheader {
+  font-size:30px;
   font-family: 'Rakkas', cursive;
   float:right;
   margin-top:1%;
@@ -65,18 +61,20 @@ body  {
   padding:10px;
   color:#145A32;
 }
-.content ul li{
+.imgcon img {
+	float:left;
+	padding:1%;
+	margin:1%;
+}
+
+.content {
   background-color:#F7F5EB;
-  list-style-type:none;
-  margin:3% 10% 3%;
-  padding:1% 5% 3%;
+  margin:10% 10% 3%;
+  padding:3% 5% 3%;
   width:65%;
   font-size:30px;
   font-family: 'Markazi Text', serif;
   color:black;
-}
-ul li img{
-	width:500px;
-	height:300px;
-	padding: 1% 25% 3%;
+	
+	
 }

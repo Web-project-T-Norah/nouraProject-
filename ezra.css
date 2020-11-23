@@ -118,16 +118,13 @@ margin: 1;
 
 .about {
   padding-bottom:fixed;
-  padding:0  ;
-  margin: 0;
-
 }
 .about p {
-  width:45%;
+  width:50%;
   font-family:'Rakkas' ;
-  font-size:30px;
+  font-size:35px;
   float : right;
-  margin-right:0;
+  margin-right:1%;
   padding:10px;
 
 }
@@ -135,12 +132,19 @@ margin: 1;
   display: block;
   font-family:'Aref Ruqaa';
   font-size:50px;
-  color:#5D6D7E;
+  color:gray;
   border-bottom:solid thin red ;
   width:33%;
   padding:10px;
-  margin-right:0;
-
+  margin-right:1%;
+  margin-bottom:3%;
+}
+.about a {
+	text-decoration:none;
+	color:#145A32;
+}
+.about a:hover{
+	color:red;
 }
 
 .about img {

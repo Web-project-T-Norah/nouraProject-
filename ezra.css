@@ -103,13 +103,11 @@ h3 {
 
 }
 .instructions {
-padding: 0 ;
-margin: 1;
+padding: 1px;
+margin: 1px;
 }
 .instructions .item {
-	width:3%
 	height:10px;
-	float:center;
 	box-shadow:0 0 5px green;
     padding:150px;
 	margin:5%;
@@ -142,7 +140,7 @@ margin: 1;
 }
 
 .about {
-  padding-bottom:fixed;
+  padding-bottom:40px;
 }
 .about p {
   width:50%;
@@ -173,8 +171,7 @@ margin: 1;
 }
 
 .about img {
-  width:5%
-  height:10px;
+  
   float:left;
   box-shadow:0 0 green;
   padding:10px;

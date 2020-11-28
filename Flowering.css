@@ -1,0 +1,48 @@
+.title_oftheflower{
+  font-size: 60px;
+  font-family:   Rakkas;
+  text-align: center;
+
+/*from https://css-tricks.com/adding-stroke-to-web-text/ */
+  -webkit-text-fill-color: #229954 ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-flowers-1592932159.jpg");
+background-position: center;
+  padding: 100px;
+
+}
+/* source youtube channel Web Master*/
+.show{
+  max-width: 1200px;
+  margin :auto;
+  overflow: auto;
+
+}
+.order{
+  margin 5px;
+  border: 1px solid #ccc;
+  float :left;
+  width: 390px;
+
+}
+p{
+
+  text-align: center;
+  font-family: Rakkas;
+font-size: 25px;
+color:#1b2631;
+}
+
+.order img{
+width: 100%;
+height: 350px;
+  }
+  .para{
+    padding: 15px;
+    text-align: center;
+    font-family: Rakkas;
+  font-size: 25px;
+  color:#1b2631;
+  }
+body{  background: #E5E7E9 ;}

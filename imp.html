@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="arabic" dir="rtl">
+<html dir="rtl" lang="ar">
   <head>
 
     <meta charset="UTF-8">
     <title> أهمية النباتات </title>
+ <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> صباحو شلته لاني يوم سويت فالديت طلع عندي ايرورات وماعرف وش السبب مع ان الكتابه صح -->
     <link rel="stylesheet" href="imp.css">
     <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Yatra+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
@@ -14,15 +15,16 @@
   </head>
 
   <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">للأعلى</button>
 
       <div class="navbar">
         <p> ازرع </p>
         <ul>
           <li> <a href="prisntion.html"> الرئيسية</a></li>
-          <li> <a href="#"> نباتات داخلية</a> </li>
+          <li> <a href="iner.html"> نباتات داخلية</a> </li>
           <li><a href="out.html"> نباتات خارجية</a> </li>
           <li> <a href="#"> نباتات ظل</a> </li>
-          <li> <a href="#"> نباتات مزهرة </a> </li>
+          <li> <a href="Flowering.html"> نباتات مزهرة </a> </li>
         </ul>
       </div>
 
@@ -35,15 +37,40 @@
   <img src="https://i.pinimg.com/564x/fa/4c/90/fa4c90ae73e00fd418ba5ff545a28b8f.jpg" alt="plants">
   <img src="https://i.pinimg.com/564x/9d/59/f0/9d59f02578dbb9fe65a2b29593ae424b.jpg" alt="plants">
   <ul>
-  <li>تمثل النباتات عموماً المصدر المتجدد للأوكسجين في الأرض, وذلك نعمة من الله سبحانه وتعالى بأن مكنها من تحويل غاز ثاني أكسيد الكربون إلى غاز الأوكسجين الذي نتنفسه </li> <br>
-  <li>غذاء للإنسان والحيوان، حيث تحتوي على الكربوهيدرات, والفيتامينات, والأملاح, والدهون, والألياف, والأحماض, ويحتوي بعضها على البروتين</li> <br>
-  <li>تشكل مصدر رزق للمزارعين في مهنة الزراعة </li> <br>
-  <li>مصدر رئيسي للأدوية والعطور </li> <br>
-  <li>مجالات صناعية وحرفية عديدة,, ومنها يتم الحصول على الأخشاب, والورق, والأصباغ, والزيوت, والأنسجة </li> <br>
-  <li>شجارها وغطائها الأخضر تحمي الأرض من التصحر, ومن انجراف التربة, ووجودها البيئي ضروري جداً للمحافظة على العديد من الحيوانات من خطر الانقراض </li> <br>
+  <li>تمثل النباتات عموماً المصدر المتجدد للأوكسجين في الأرض, وذلك نعمة من الله سبحانه وتعالى بأن مكنها من تحويل غاز ثاني أكسيد الكربون إلى غاز الأوكسجين الذي نتنفسه </li> 
+  <li>غذاء للإنسان والحيوان، حيث تحتوي على الكربوهيدرات, والفيتامينات, والأملاح, والدهون, والألياف, والأحماض, ويحتوي بعضها على البروتين</li> 
+  <li>تشكل مصدر رزق للمزارعين في مهنة الزراعة </li> 
+  <li>مصدر رئيسي للأدوية والعطور </li> 
+  <li>مجالات صناعية وحرفية عديدة,, ومنها يتم الحصول على الأخشاب, والورق, والأصباغ, والزيوت, والأنسجة </li>
+  <li>شجارها وغطائها الأخضر تحمي الأرض من التصحر, ومن انجراف التربة, ووجودها البيئي ضروري جداً للمحافظة على العديد من الحيوانات من خطر الانقراض </li> 
   <li>لا تزال في العديد من بقاع العالم أحد أهم مصادر مواد البناء, حيث تبنى من جذوعها وأخشابها البيوت والسفن، ومصدر للطاقة عن طريق حرق الحطب للوقود، وهي في حد ذاتها أحد أهم المكونات الطبيعية التي تكون منها النفط, والغاز, والفحم, منذ ملايين السنين, والتي تستخدم الآن كمصدر رئيسي للطاقة وللمنتجات الصناعية المختلفة</li>
   </ul>
   </div>
-<h3 align=center><a href="javascript:window.print()">لو اعجبك محتوانا وتبي تطبع هذي الصفحة اضغط هُنا</a></h3>
-  </body>
+<h3><a href="javascript:window.print()">لو اعجبك محتوانا وتبي تطبع هذي الصفحة اضغط هُنا</a></h3>
+  
+  	
+<script>
+//صباح الخير اخذت الكود ذا من موقع بحط لك رابطه تحت 
+//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
   </html>
